@@ -22,3 +22,11 @@
     background-color: #49666d;
     color: white;
 }
+
+.zero-fifty {
+    display: none;
+}
+
+.zero-fifty img {
+    max-height: 233px;
+}
