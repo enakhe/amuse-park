@@ -5,18 +5,17 @@ $(document).ready(function() {
         const name = $("#name").val();
         const height = parseInt($("#height").val());
 
-        // If statement
+        // If statement for zero to fifty
         if (height <= 50) {
-
             $(".userName").text(name);
 
-            $(".entryForm").fadeOut(500);
-            $(".zero-fifty").fadeIn(500);
+            $(".entryForm").fadeOut();
+            $(".zero-fifty").fadeIn();
 
             $("#zero-fifty-back").click(function() {
-                $(".zero-fifty").fadeOut(500);
-                $(".entryForm").fadeIn(500);
-            })
+                $(".zero-fifty").fadeOut();
+                $(".entryForm").fadeIn();
+            });
         }
     })
 })
